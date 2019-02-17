@@ -1,0 +1,10 @@
+{
+  "timer": 5,
+  "log": true,
+  "influxdb_url": "http://127.0.0.1:8086/write?db=prober",
+  "routers":[
+            {"name": "Router", "hop": 1, "next_ip": "127.0.0.1"},
+            {"name": "Router2", "hop": 2, "next_ip": "127.0.0.1"},
+            {"name": "Router3", "hop": 3, "next_ip": "127.0.0.1"}
+  ]
+}
