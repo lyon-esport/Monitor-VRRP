@@ -22,7 +22,7 @@ in a log file and/or in an InfluxDB.
     * timer - timer between each test
     * log - save in log file
     * influxdb_url - HTTP request InfluxDB (can be an empty string if you don't use it)
-    * routers - Array of object (name = router name, hop = number of routers from its source to its destination, vrrp_ip = router VRRP IP)
+    * routers - Array of object (name = router name, hop = number of routers from source to destination, next_ip = an IP in one of subnet router)
     
 5. Start the program `python main.py`
 
