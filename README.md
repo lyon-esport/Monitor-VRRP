@@ -1,6 +1,10 @@
 The goal of this project is to log when the active router change. Log are displayed on terminal and can be saved
 in a log file and/or in an InfluxDB.
 
+
+#### Showcase
+![showcase.png](showcase.png)
+
 # This tool uses :
 
 * [Requests](http://docs.python-requests.org/) - HTTP library
